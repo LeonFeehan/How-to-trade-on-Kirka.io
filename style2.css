@@ -2,10 +2,33 @@ body {
     display: inline;
 }
 
+.header {
+    display: inline;
+    margin: none;
+    background-image: linear-gradient(to bottom right, lightblue, lightgrey, lightyellow, orange);
+}
+
 #TitleH1 {
     text-align: center;
 }
 
 p {
     text-align: center;
+}
+
+h2 {
+    text-align: center;
+}
+
+#imginvskins {
+    margin-left: 5%;
+    width: 30%;
+}
+
+#imginvchests {
+    width: 30%;
+}
+
+#imginvchars {
+    width: 30%;
 }

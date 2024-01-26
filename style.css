@@ -1,15 +1,20 @@
 body {
-    display: inline;
+    margin: none;
+    background-color: antiquewhite;
 }
 
-.header {
-    display: inline;
+header {
     margin: none;
-    background-image: linear-gradient(to bottom right, lightblue, lightgrey, lightyellow, orange);
+    background-image: linear-gradient(to bottom right, rgb(38, 181, 229), rgb(139, 208, 231), lightblue,rgb(139, 208, 231),rgb(68, 190, 231));
 }
 
 #TitleH1 {
     text-align: center;
+}
+
+hr {
+    margin: none;
+    background-color: aliceblue;
 }
 
 p {
@@ -18,6 +23,16 @@ p {
 
 h2 {
     text-align: center;
+}
+
+.Title {
+    background-size: 5vw 5vh;
+    background-color: rgb(153, 200, 241);
+}
+
+.Title:hover {
+    background-size: 6vw 6vh;
+    background-color: rgb(83, 186, 220);
 }
 
 #imginvskins {
@@ -30,5 +45,35 @@ h2 {
 }
 
 #imginvchars {
+    width: 30%;
+}
+
+#imgchatfake {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 30%;
+    height: 400px;
+}
+
+#imgmarket {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 65%;
+    height: 400px;
+}
+
+#imgoffer {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 30%;
+}
+
+#imgaccept {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
     width: 30%;
 }

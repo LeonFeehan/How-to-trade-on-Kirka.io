@@ -6,20 +6,48 @@
         <link href="style2.css" rel="stylesheet">
     </head>
     <body>
-        <div class="header">
+        <header>
             <h1 id="TitleH1">How to trade in Kirka.io</h1>
             <p>There are many things to know when trading in-game.</p>
-        </div>
+        </header>
         <hr>
-        <br><br>
         <div>
-        <h2>Inventory</h2>
-        <img src="InventorySkins.PNG" alt="Image of kirka.io Inventory" id="imginvskins">
-        <img src="InventoryChests.PNG" alt="Image of kirka.io Chests" id="imginvchests">
-        <img src="InventoryCharacters.PNG" alt="Image of kirka.io Characters" id="imginvchars">
-        <p>This is where you will see all your skins, chests and characters.</p>
-        <br>
-        <p>It is useful to have the prices directly viewed in your inventory. I use tampermonkey scripts made from this link: <a href="https://github.com/SheriffCarry/KirkaScripts/blob/main/Tampermonkey/Inventory_prices.js">Inventory Prices</a></p>
+            <h2 id="TitleInv" class="Title">Inventory</h2>
+            <div>
+                <img src="InventorySkins.PNG" alt="Image of kirka.io Inventory" id="imginvskins">
+                <img src="InventoryChests.PNG" alt="Image of kirka.io Chests" id="imginvchests">
+                <img src="InventoryCharacters.PNG" alt="Image of kirka.io Characters" id="imginvchars">
+                <p>This is where you will see all your skins, chests and characters.</p>
+                <p>It is useful to have the prices directly viewed in your inventory. I use tampermonkey scripts made from this link: <a href="https://github.com/SheriffCarry/KirkaScripts/blob/main/Tampermonkey/Inventory_prices.js">Inventory Prices</a></p>
+            </div>
+            <h2 id="TitleChat" class="Title">Global Chat</h2>
+            <div>
+                <img src="ChatIMGfake.PNG" id="imgchatfake">
+                <p>This is where you will trade with other people. I also use another tampermonkey script for easier trade accepting: <a href="https://github.com/SheriffCarry/KirkaScripts/blob/main/Tampermonkey/TradingEasierAccept.js">Easier Trade Accept</a> (press purple, delete+enter twice).</p>
+                <p><b>Trades such as the one highlighted in yellow are fake and should not be accepted.</b></p>
+            </div>
+            <h2 id="TitleMarket" class="Title">Market</h2>
+            <div>
+                <img src="Market.PNG" id="imgmarket">
+                <p>Here you can see and buy all the items people put on the market.</p>
+                <p><b>Make sure to check a value list or do /price [item] in the global chat before buying anything.</b></p>
+            </div>
+            <h2 id="TitleOffer" class="Title">Offering Trades</h2>
+            <div>
+                <img src="Offer.PNG" id="imgoffer">
+                <p>To offer a trade do <b>/trade offer {User ID} my:[yourItem1],[yourItem2],[yourItem3] your:[theirItem1],[theirItem2],[theirItem3]</b></p>
+                <p>First of all, replace the placeholders with the names of the items you are trading. When offering the user id is who specifically you want to trade with and is optional. To copy someone's ID press on their name in global chat and paste it in the trade offer.</p>
+            </div>
+            <h2 id="TitleAccept" class="Title">Accepting Trades</h2>
+            <div>
+                <img src="Accept.PNG" id="imgaccept">
+                <img src="Accept2.PNG" id="imgaccept">
+                <p>To accept a trade do /trade accept {trade number} then do /trade confirm.</p>
+                <p>Instead, you could do this quickly by using the easier trade accept script from before (press purple highlight, delete+enter twice).</p>
+            </div>
+            <h2 id="TitleOther" class="Title">Other</h2>
+            <p>To cancel a trade do /trade cancel</p>
+            <p>To bump your trade do /trade bump</p>
         </div>
     </body>
 </html>
